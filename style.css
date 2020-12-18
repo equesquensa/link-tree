@@ -10,7 +10,7 @@
 }
 
 body{
-    background-image: url(./images/keyboard2.jpg);
+    background-image: url(./images/keyboardwhite.jpg);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -43,7 +43,7 @@ body{
     height: 50%;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
-    background-image: url(images/keyboard3.jpg);
+    background-image: url(images/keyboard.jpg);
 }
 .profile-container .profile-up img{
     border-radius: 50%;
@@ -209,6 +209,12 @@ body{
 
 @media only screen and (max-width: 450px) {
 
+    .profile-container .profile-up{
+
+        background-image: url(images/keyboard2.jpg);
+    }
+
+
     .social .social-info .view-link{
 
         position: absolute;
@@ -218,4 +224,58 @@ body{
         color: #000;
     }
 
+    .social .social-title {
+        margin: 0;
+        margin-left: -10px;
+    }
+
 }
+
+@media only screen and (max-width: 370px) {
+
+
+    .profile-container .profile-down .birthday {
+        margin-top: -15px;
+    }
+
+    .social .logo {
+        position: absolute;
+        top: 3px;
+        left: 6px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: -25px;
+    }
+
+    .social .social-info {
+        margin-left: 70px;
+    }
+
+    .social .social-info .view-link{
+
+        position: absolute;
+        margin-bottom: 10px;
+        left: 200px;
+        top: 18px;
+        color: #000;
+    }
+
+    .social .social-title{
+        margin: 10;
+        font-size: 16px;
+        margin-left: -10px;
+    }
+
+    .social .social-smalltitle{
+        margin: 15px 0 0;
+        font-size: 12px;
+        margin-left: -10px;
+    }
+
+    .social .logo img {
+        width: 60px;
+        height: 60px;
+    }
+}   
