@@ -257,7 +257,7 @@ body{
 
         position: absolute;
         margin-bottom: 10px;
-        left: 200px;
+        left: 190px;
         top: 18px;
         color: #000;
     }
@@ -277,5 +277,6 @@ body{
     .social .logo img {
         width: 60px;
         height: 60px;
+        margin-left: 15px;
     }
 }   
